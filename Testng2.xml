@@ -1,0 +1,24 @@
+<suite name="EcommerceSuite" verbose="1">
+
+    <listeners>
+        <listener class-name="TestComponent.Listeners"/>
+    </listeners>
+
+    <test name="AllGroups">
+        <groups>
+            <run>
+                <include name="smoke"/>
+                <include name="regression"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="P01_LoginPageTC"/>
+            <class name="P02_ProductsPageTC"/>
+            <class name="P03_CartPageTC"/>
+            <class name="P04_CheckoutPageTC"/>
+            <class name="EndToEndTC"/>
+        </classes>
+    </test>
+
+</suite>
