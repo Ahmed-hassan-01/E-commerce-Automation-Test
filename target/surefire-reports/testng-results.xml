@@ -1,0 +1,1801 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="134" passed="128" failed="6" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-24T09:48:21 EEST" name="AutomationSuite" finished-at="2025-07-24T09:48:33 EEST" duration-ms="12261">
+    <groups>
+      <group name="login">
+        <method signature="P01_LoginPageTC.validPasswordAndemptyUsername(java.util.HashMap)[pri:0, instance:P01_LoginPageTC@1cb346ea]" name="validPasswordAndemptyUsername" class="P01_LoginPageTC"/>
+        <method signature="P01_LoginPageTC.validUserNameAndPassword(java.util.HashMap)[pri:0, instance:P01_LoginPageTC@1cb346ea]" name="validUserNameAndPassword" class="P01_LoginPageTC"/>
+        <method signature="P01_LoginPageTC.validUserNameAndemptyPassword(java.util.HashMap)[pri:0, instance:P01_LoginPageTC@1cb346ea]" name="validUserNameAndemptyPassword" class="P01_LoginPageTC"/>
+        <method signature="P01_LoginPageTC.vlidationLockeUser(java.util.HashMap)[pri:0, instance:P01_LoginPageTC@1cb346ea]" name="vlidationLockeUser" class="P01_LoginPageTC"/>
+      </group> <!-- login -->
+    </groups>
+    <test started-at="2025-07-24T09:48:21 EEST" name="AllTests" finished-at="2025-07-24T09:48:33 EEST" duration-ms="12261">
+      <class name="P03_CartPageTC">
+        <test-method is-config="true" signature="setup()[pri:0, instance:P03_CartPageTC@7354b8c5]" started-at="2025-07-24T09:48:25 EEST" name="setup" finished-at="2025-07-24T09:48:25 EEST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyDisplay(java.util.HashMap)[pri:1, instance:P03_CartPageTC@7354b8c5]" started-at="2025-07-24T09:48:25 EEST" name="verifyDisplay" data-provider="getProductsData" finished-at="2025-07-24T09:48:25 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{action=view, productName=Sauce Labs Backpack}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDisplay -->
+        <test-method signature="verifyDisplay(java.util.HashMap)[pri:1, instance:P03_CartPageTC@7354b8c5]" started-at="2025-07-24T09:48:25 EEST" name="verifyDisplay" data-provider="getProductsData" finished-at="2025-07-24T09:48:25 EEST" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{action=add, productName=Sauce Labs Bike Light}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDisplay -->
+        <test-method signature="verifyDisplay(java.util.HashMap)[pri:1, instance:P03_CartPageTC@7354b8c5]" started-at="2025-07-24T09:48:25 EEST" name="verifyDisplay" data-provider="getProductsData" finished-at="2025-07-24T09:48:25 EEST" duration-ms="25" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{action=add, productName=Sauce Labs Fleece Jacket}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDisplay -->
+        <test-method signature="verifyDisplay(java.util.HashMap)[pri:1, instance:P03_CartPageTC@7354b8c5]" started-at="2025-07-24T09:48:25 EEST" name="verifyDisplay" data-provider="getProductsData" finished-at="2025-07-24T09:48:25 EEST" duration-ms="33" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{action=add, productName=Sauce Labs Bolt T-Shirt}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDisplay -->
+        <test-method signature="verifyDisplay(java.util.HashMap)[pri:1, instance:P03_CartPageTC@7354b8c5]" started-at="2025-07-24T09:48:25 EEST" name="verifyDisplay" data-provider="getProductsData" finished-at="2025-07-24T09:48:25 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{action=remove, productName=Sauce Labs Bike Light}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDisplay -->
+        <test-method signature="verifyDisplay(java.util.HashMap)[pri:1, instance:P03_CartPageTC@7354b8c5]" started-at="2025-07-24T09:48:25 EEST" name="verifyDisplay" data-provider="getProductsData" finished-at="2025-07-24T09:48:25 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{action=view, productName=Sauce Labs Backpack}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDisplay -->
+        <test-method signature="verifyDisplay(java.util.HashMap)[pri:1, instance:P03_CartPageTC@7354b8c5]" started-at="2025-07-24T09:48:25 EEST" name="verifyDisplay" data-provider="getProductsData" finished-at="2025-07-24T09:48:25 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{action=remove, productName=Sauce Labs Fleece Jacket}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDisplay -->
+        <test-method signature="removeProduct(java.util.HashMap)[pri:2, instance:P03_CartPageTC@7354b8c5]" started-at="2025-07-24T09:48:25 EEST" name="removeProduct" data-provider="getProductsData" finished-at="2025-07-24T09:48:25 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{action=add, productName=Sauce Labs Bike Light}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeProduct -->
+        <test-method signature="removeProduct(java.util.HashMap)[pri:2, instance:P03_CartPageTC@7354b8c5]" started-at="2025-07-24T09:48:25 EEST" name="removeProduct" data-provider="getProductsData" finished-at="2025-07-24T09:48:25 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{action=view, productName=Sauce Labs Backpack}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeProduct -->
+        <test-method signature="removeProduct(java.util.HashMap)[pri:2, instance:P03_CartPageTC@7354b8c5]" started-at="2025-07-24T09:48:25 EEST" name="removeProduct" data-provider="getProductsData" finished-at="2025-07-24T09:48:25 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{action=add, productName=Sauce Labs Bolt T-Shirt}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeProduct -->
+        <test-method signature="removeProduct(java.util.HashMap)[pri:2, instance:P03_CartPageTC@7354b8c5]" started-at="2025-07-24T09:48:25 EEST" name="removeProduct" data-provider="getProductsData" finished-at="2025-07-24T09:48:25 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{action=add, productName=Sauce Labs Fleece Jacket}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeProduct -->
+        <test-method signature="removeProduct(java.util.HashMap)[pri:2, instance:P03_CartPageTC@7354b8c5]" started-at="2025-07-24T09:48:25 EEST" name="removeProduct" data-provider="getProductsData" finished-at="2025-07-24T09:48:25 EEST" duration-ms="84" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{action=remove, productName=Sauce Labs Bike Light}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeProduct -->
+        <test-method signature="removeProduct(java.util.HashMap)[pri:2, instance:P03_CartPageTC@7354b8c5]" started-at="2025-07-24T09:48:25 EEST" name="removeProduct" data-provider="getProductsData" finished-at="2025-07-24T09:48:25 EEST" duration-ms="61" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{action=remove, productName=Sauce Labs Fleece Jacket}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeProduct -->
+        <test-method signature="removeProduct(java.util.HashMap)[pri:2, instance:P03_CartPageTC@7354b8c5]" started-at="2025-07-24T09:48:25 EEST" name="removeProduct" data-provider="getProductsData" finished-at="2025-07-24T09:48:25 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{action=view, productName=Sauce Labs Backpack}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeProduct -->
+        <test-method signature="Checkout()[pri:3, instance:P03_CartPageTC@7354b8c5]" started-at="2025-07-24T09:48:25 EEST" name="Checkout" finished-at="2025-07-24T09:48:26 EEST" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkout -->
+        <test-method signature="verifyProductsRemoved(java.util.HashMap)[pri:3, instance:P03_CartPageTC@7354b8c5]" started-at="2025-07-24T09:48:26 EEST" name="verifyProductsRemoved" data-provider="getProductsData" finished-at="2025-07-24T09:48:26 EEST" duration-ms="86" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{action=view, productName=Sauce Labs Backpack}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductsRemoved -->
+        <test-method signature="verifyProductsRemoved(java.util.HashMap)[pri:3, instance:P03_CartPageTC@7354b8c5]" started-at="2025-07-24T09:48:26 EEST" name="verifyProductsRemoved" data-provider="getProductsData" finished-at="2025-07-24T09:48:26 EEST" duration-ms="72" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{action=add, productName=Sauce Labs Bike Light}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductsRemoved -->
+        <test-method signature="verifyProductsRemoved(java.util.HashMap)[pri:3, instance:P03_CartPageTC@7354b8c5]" started-at="2025-07-24T09:48:26 EEST" name="verifyProductsRemoved" data-provider="getProductsData" finished-at="2025-07-24T09:48:26 EEST" duration-ms="64" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{action=add, productName=Sauce Labs Fleece Jacket}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductsRemoved -->
+        <test-method signature="verifyProductsRemoved(java.util.HashMap)[pri:3, instance:P03_CartPageTC@7354b8c5]" started-at="2025-07-24T09:48:26 EEST" name="verifyProductsRemoved" data-provider="getProductsData" finished-at="2025-07-24T09:48:26 EEST" duration-ms="60" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{action=add, productName=Sauce Labs Bolt T-Shirt}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductsRemoved -->
+        <test-method signature="verifyProductsRemoved(java.util.HashMap)[pri:3, instance:P03_CartPageTC@7354b8c5]" started-at="2025-07-24T09:48:26 EEST" name="verifyProductsRemoved" data-provider="getProductsData" finished-at="2025-07-24T09:48:26 EEST" duration-ms="78" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{action=remove, productName=Sauce Labs Bike Light}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductsRemoved -->
+        <test-method signature="verifyProductsRemoved(java.util.HashMap)[pri:3, instance:P03_CartPageTC@7354b8c5]" started-at="2025-07-24T09:48:26 EEST" name="verifyProductsRemoved" data-provider="getProductsData" finished-at="2025-07-24T09:48:26 EEST" duration-ms="85" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{action=remove, productName=Sauce Labs Fleece Jacket}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductsRemoved -->
+        <test-method signature="verifyProductsRemoved(java.util.HashMap)[pri:3, instance:P03_CartPageTC@7354b8c5]" started-at="2025-07-24T09:48:26 EEST" name="verifyProductsRemoved" data-provider="getProductsData" finished-at="2025-07-24T09:48:26 EEST" duration-ms="67" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{action=view, productName=Sauce Labs Backpack}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductsRemoved -->
+        <test-method signature="continueshopping()[pri:4, instance:P03_CartPageTC@7354b8c5]" started-at="2025-07-24T09:48:26 EEST" name="continueshopping" finished-at="2025-07-24T09:48:26 EEST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continueshopping -->
+      </class> <!-- P03_CartPageTC -->
+      <class name="P01_LoginPageTC">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:P01_LoginPageTC@1cb346ea]" started-at="2025-07-24T09:48:18 EEST" name="launchBrowser" finished-at="2025-07-24T09:48:21 EEST" duration-ms="2358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:P01_LoginPageTC@1cb346ea]" started-at="2025-07-24T09:48:21 EEST" name="setup" finished-at="2025-07-24T09:48:21 EEST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goToLogin()[pri:0, instance:P01_LoginPageTC@1cb346ea]" started-at="2025-07-24T09:48:21 EEST" name="goToLogin" finished-at="2025-07-24T09:48:22 EEST" duration-ms="512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLogin -->
+        <test-method signature="validPasswordAndemptyUsername(java.util.HashMap)[pri:0, instance:P01_LoginPageTC@1cb346ea]" started-at="2025-07-24T09:48:22 EEST" name="validPasswordAndemptyUsername" data-provider="getValidData" finished-at="2025-07-24T09:48:22 EEST" duration-ms="692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=secret_sauce, user_Name=standard_user, LoginUrl=https://www.saucedemo.com/v1/index.html, afterLoginUrl=https://www.saucedemo.com/v1/inventory.html}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validPasswordAndemptyUsername -->
+        <test-method is-config="true" signature="goToLogin()[pri:0, instance:P01_LoginPageTC@1cb346ea]" started-at="2025-07-24T09:48:23 EEST" name="goToLogin" finished-at="2025-07-24T09:48:23 EEST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLogin -->
+        <test-method signature="validUserNameAndPassword(java.util.HashMap)[pri:0, instance:P01_LoginPageTC@1cb346ea]" started-at="2025-07-24T09:48:23 EEST" name="validUserNameAndPassword" data-provider="getValidData" finished-at="2025-07-24T09:48:24 EEST" duration-ms="1274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=secret_sauce, user_Name=standard_user, LoginUrl=https://www.saucedemo.com/v1/index.html, afterLoginUrl=https://www.saucedemo.com/v1/inventory.html}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUserNameAndPassword -->
+        <test-method is-config="true" signature="goToLogin()[pri:0, instance:P01_LoginPageTC@1cb346ea]" started-at="2025-07-24T09:48:24 EEST" name="goToLogin" finished-at="2025-07-24T09:48:24 EEST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLogin -->
+        <test-method signature="validUserNameAndemptyPassword(java.util.HashMap)[pri:0, instance:P01_LoginPageTC@1cb346ea]" started-at="2025-07-24T09:48:24 EEST" name="validUserNameAndemptyPassword" data-provider="getValidData" finished-at="2025-07-24T09:48:24 EEST" duration-ms="246" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=secret_sauce, user_Name=standard_user, LoginUrl=https://www.saucedemo.com/v1/index.html, afterLoginUrl=https://www.saucedemo.com/v1/inventory.html}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUserNameAndemptyPassword -->
+        <test-method is-config="true" signature="goToLogin()[pri:0, instance:P01_LoginPageTC@1cb346ea]" started-at="2025-07-24T09:48:24 EEST" name="goToLogin" finished-at="2025-07-24T09:48:24 EEST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLogin -->
+        <test-method signature="vlidationLockeUser(java.util.HashMap)[pri:0, instance:P01_LoginPageTC@1cb346ea]" started-at="2025-07-24T09:48:24 EEST" name="vlidationLockeUser" data-provider="getInvalidData" finished-at="2025-07-24T09:48:24 EEST" duration-ms="164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=secret_sauce, lockedName=locked_out_user, LoginUrl=https://www.saucedemo.com/v1/index.html, afterLoginUrl=https://www.saucedemo.com/v1/index.html}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vlidationLockeUser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:P01_LoginPageTC@1cb346ea]" started-at="2025-07-24T09:48:34 EEST" name="closeBrowser" finished-at="2025-07-24T09:48:34 EEST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- P01_LoginPageTC -->
+      <class name="P02_ProductsPageTC">
+        <test-method is-config="true" signature="setup()[pri:0, instance:P02_ProductsPageTC@329dbdbf]" started-at="2025-07-24T09:48:24 EEST" name="setup" finished-at="2025-07-24T09:48:24 EEST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addToCart(java.util.HashMap)[pri:0, instance:P02_ProductsPageTC@329dbdbf]" started-at="2025-07-24T09:48:24 EEST" name="addToCart" data-provider="getProductsData" finished-at="2025-07-24T09:48:24 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{action=view, productName=Sauce Labs Backpack}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method signature="addToCart(java.util.HashMap)[pri:0, instance:P02_ProductsPageTC@329dbdbf]" started-at="2025-07-24T09:48:24 EEST" name="addToCart" data-provider="getProductsData" finished-at="2025-07-24T09:48:25 EEST" duration-ms="115" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{action=add, productName=Sauce Labs Bike Light}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method signature="addToCart(java.util.HashMap)[pri:0, instance:P02_ProductsPageTC@329dbdbf]" started-at="2025-07-24T09:48:25 EEST" name="addToCart" data-provider="getProductsData" finished-at="2025-07-24T09:48:25 EEST" duration-ms="120" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{action=add, productName=Sauce Labs Fleece Jacket}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method signature="addToCart(java.util.HashMap)[pri:0, instance:P02_ProductsPageTC@329dbdbf]" started-at="2025-07-24T09:48:25 EEST" name="addToCart" data-provider="getProductsData" finished-at="2025-07-24T09:48:25 EEST" duration-ms="102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{action=add, productName=Sauce Labs Bolt T-Shirt}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method signature="addToCart(java.util.HashMap)[pri:0, instance:P02_ProductsPageTC@329dbdbf]" started-at="2025-07-24T09:48:25 EEST" name="addToCart" data-provider="getProductsData" finished-at="2025-07-24T09:48:25 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{action=remove, productName=Sauce Labs Bike Light}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method signature="addToCart(java.util.HashMap)[pri:0, instance:P02_ProductsPageTC@329dbdbf]" started-at="2025-07-24T09:48:25 EEST" name="addToCart" data-provider="getProductsData" finished-at="2025-07-24T09:48:25 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{action=remove, productName=Sauce Labs Fleece Jacket}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method signature="addToCart(java.util.HashMap)[pri:0, instance:P02_ProductsPageTC@329dbdbf]" started-at="2025-07-24T09:48:25 EEST" name="addToCart" data-provider="getProductsData" finished-at="2025-07-24T09:48:25 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{action=view, productName=Sauce Labs Backpack}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+      </class> <!-- P02_ProductsPageTC -->
+      <class name="P04_CheckoutPageTC">
+        <test-method is-config="true" signature="setup()[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:26 EEST" name="setup" finished-at="2025-07-24T09:48:26 EEST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkOutEmptyFirstName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:26 EEST" name="checkOutEmptyFirstName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:26 EEST" duration-ms="33" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=hossam, lastName=mohamed, type=valid, postalCode=12345, TC=smoke}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutEmptyFirstName -->
+        <test-method signature="checkOutEmptyFirstName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:26 EEST" name="checkOutEmptyFirstName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:27 EEST" duration-ms="344" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=, lastName=hossam, type=inValid, postalCode=6984, TC=empty_FirstName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutEmptyFirstName -->
+        <test-method signature="checkOutEmptyFirstName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:27 EEST" name="checkOutEmptyFirstName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:27 EEST" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=standard_user, lastName=, type=inValid, postalCode=5842, TC=empty_LastName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutEmptyFirstName -->
+        <test-method signature="checkOutEmptyFirstName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:27 EEST" name="checkOutEmptyFirstName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:27 EEST" duration-ms="32" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=hossam, lastName=mohamed, type=inValid, postalCode=, TC=empty_PostalCode}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutEmptyFirstName -->
+        <test-method signature="checkOutEmptyFirstName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:27 EEST" name="checkOutEmptyFirstName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:27 EEST" duration-ms="31" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=moh@@, lastName=hossam, type=inValid, postalCode=54545, TC=specialCharacter_FirstName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutEmptyFirstName -->
+        <test-method signature="checkOutEmptyFirstName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:27 EEST" name="checkOutEmptyFirstName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:27 EEST" duration-ms="31" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=mohamed, lastName=hossam@@, type=inValid, postalCode=8256, TC=specialCharacter_LastName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutEmptyFirstName -->
+        <test-method signature="checkOutEmptyFirstName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:27 EEST" name="checkOutEmptyFirstName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:27 EEST" duration-ms="32" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=mohamed, lastName=hossam, type=inValid, postalCode=589@@, TC=specialCharacter_PostalCode}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutEmptyFirstName -->
+        <test-method signature="checkOutEmptyFirstName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:27 EEST" name="checkOutEmptyFirstName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:27 EEST" duration-ms="26" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=moh@@, lastName=hossam, type=inValid, postalCode=notValid, TC=alphabeticalCharacter_PostalCode}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutEmptyFirstName -->
+        <test-method signature="checkOutEmptyFirstName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:27 EEST" name="checkOutEmptyFirstName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:27 EEST" duration-ms="30" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=85215, lastName=hossam, type=inValid, postalCode=12345, TC=numeric_FirstName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutEmptyFirstName -->
+        <test-method signature="checkOutEmptyFirstName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:27 EEST" name="checkOutEmptyFirstName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:27 EEST" duration-ms="30" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=hossam, lastName=6789, type=inValid, postalCode=12345, TC=numeric_LastName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutEmptyFirstName -->
+        <test-method signature="checkOutEmptyLastName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:27 EEST" name="checkOutEmptyLastName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:27 EEST" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=hossam, lastName=mohamed, type=valid, postalCode=12345, TC=smoke}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutEmptyLastName -->
+        <test-method signature="checkOutEmptyLastName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:27 EEST" name="checkOutEmptyLastName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:27 EEST" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=, lastName=hossam, type=inValid, postalCode=6984, TC=empty_FirstName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutEmptyLastName -->
+        <test-method signature="checkOutEmptyLastName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:27 EEST" name="checkOutEmptyLastName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:27 EEST" duration-ms="383" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=standard_user, lastName=, type=inValid, postalCode=5842, TC=empty_LastName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutEmptyLastName -->
+        <test-method signature="checkOutEmptyLastName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:27 EEST" name="checkOutEmptyLastName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:27 EEST" duration-ms="32" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=hossam, lastName=mohamed, type=inValid, postalCode=, TC=empty_PostalCode}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutEmptyLastName -->
+        <test-method signature="checkOutEmptyLastName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:27 EEST" name="checkOutEmptyLastName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:27 EEST" duration-ms="33" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=moh@@, lastName=hossam, type=inValid, postalCode=54545, TC=specialCharacter_FirstName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutEmptyLastName -->
+        <test-method signature="checkOutEmptyLastName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:27 EEST" name="checkOutEmptyLastName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:27 EEST" duration-ms="32" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=mohamed, lastName=hossam@@, type=inValid, postalCode=8256, TC=specialCharacter_LastName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutEmptyLastName -->
+        <test-method signature="checkOutEmptyLastName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:27 EEST" name="checkOutEmptyLastName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:28 EEST" duration-ms="32" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=mohamed, lastName=hossam, type=inValid, postalCode=589@@, TC=specialCharacter_PostalCode}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutEmptyLastName -->
+        <test-method signature="checkOutEmptyLastName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:28 EEST" name="checkOutEmptyLastName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:28 EEST" duration-ms="29" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=moh@@, lastName=hossam, type=inValid, postalCode=notValid, TC=alphabeticalCharacter_PostalCode}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutEmptyLastName -->
+        <test-method signature="checkOutEmptyLastName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:28 EEST" name="checkOutEmptyLastName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:28 EEST" duration-ms="25" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=85215, lastName=hossam, type=inValid, postalCode=12345, TC=numeric_FirstName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutEmptyLastName -->
+        <test-method signature="checkOutEmptyLastName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:28 EEST" name="checkOutEmptyLastName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:28 EEST" duration-ms="26" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=hossam, lastName=6789, type=inValid, postalCode=12345, TC=numeric_LastName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutEmptyLastName -->
+        <test-method signature="checkOutEmptyPostalCode(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:28 EEST" name="checkOutEmptyPostalCode" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:28 EEST" duration-ms="33" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=hossam, lastName=mohamed, type=valid, postalCode=12345, TC=smoke}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutEmptyPostalCode -->
+        <test-method signature="checkOutEmptyPostalCode(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:28 EEST" name="checkOutEmptyPostalCode" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:28 EEST" duration-ms="35" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=, lastName=hossam, type=inValid, postalCode=6984, TC=empty_FirstName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutEmptyPostalCode -->
+        <test-method signature="checkOutEmptyPostalCode(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:28 EEST" name="checkOutEmptyPostalCode" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:28 EEST" duration-ms="25" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=standard_user, lastName=, type=inValid, postalCode=5842, TC=empty_LastName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutEmptyPostalCode -->
+        <test-method signature="checkOutEmptyPostalCode(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:28 EEST" name="checkOutEmptyPostalCode" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:28 EEST" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=hossam, lastName=mohamed, type=inValid, postalCode=, TC=empty_PostalCode}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutEmptyPostalCode -->
+        <test-method signature="checkOutEmptyPostalCode(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:28 EEST" name="checkOutEmptyPostalCode" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:28 EEST" duration-ms="27" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=moh@@, lastName=hossam, type=inValid, postalCode=54545, TC=specialCharacter_FirstName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutEmptyPostalCode -->
+        <test-method signature="checkOutEmptyPostalCode(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:28 EEST" name="checkOutEmptyPostalCode" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:28 EEST" duration-ms="30" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=mohamed, lastName=hossam@@, type=inValid, postalCode=8256, TC=specialCharacter_LastName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutEmptyPostalCode -->
+        <test-method signature="checkOutEmptyPostalCode(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:28 EEST" name="checkOutEmptyPostalCode" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:28 EEST" duration-ms="25" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=mohamed, lastName=hossam, type=inValid, postalCode=589@@, TC=specialCharacter_PostalCode}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutEmptyPostalCode -->
+        <test-method signature="checkOutEmptyPostalCode(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:28 EEST" name="checkOutEmptyPostalCode" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:28 EEST" duration-ms="27" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=moh@@, lastName=hossam, type=inValid, postalCode=notValid, TC=alphabeticalCharacter_PostalCode}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutEmptyPostalCode -->
+        <test-method signature="checkOutEmptyPostalCode(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:28 EEST" name="checkOutEmptyPostalCode" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:28 EEST" duration-ms="32" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=85215, lastName=hossam, type=inValid, postalCode=12345, TC=numeric_FirstName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutEmptyPostalCode -->
+        <test-method signature="checkOutEmptyPostalCode(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:28 EEST" name="checkOutEmptyPostalCode" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:28 EEST" duration-ms="35" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=hossam, lastName=6789, type=inValid, postalCode=12345, TC=numeric_LastName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutEmptyPostalCode -->
+        <test-method signature="checkOutValidData(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:28 EEST" name="checkOutValidData" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:28 EEST" duration-ms="520" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=hossam, lastName=mohamed, type=valid, postalCode=12345, TC=smoke}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutValidData -->
+        <test-method signature="checkOutValidData(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:28 EEST" name="checkOutValidData" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:28 EEST" duration-ms="48" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=, lastName=hossam, type=inValid, postalCode=6984, TC=empty_FirstName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutValidData -->
+        <test-method signature="checkOutValidData(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:28 EEST" name="checkOutValidData" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:29 EEST" duration-ms="43" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=standard_user, lastName=, type=inValid, postalCode=5842, TC=empty_LastName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutValidData -->
+        <test-method signature="checkOutValidData(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:29 EEST" name="checkOutValidData" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:29 EEST" duration-ms="33" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=hossam, lastName=mohamed, type=inValid, postalCode=, TC=empty_PostalCode}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutValidData -->
+        <test-method signature="checkOutValidData(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:29 EEST" name="checkOutValidData" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:29 EEST" duration-ms="46" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=moh@@, lastName=hossam, type=inValid, postalCode=54545, TC=specialCharacter_FirstName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutValidData -->
+        <test-method signature="checkOutValidData(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:29 EEST" name="checkOutValidData" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:29 EEST" duration-ms="30" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=mohamed, lastName=hossam@@, type=inValid, postalCode=8256, TC=specialCharacter_LastName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutValidData -->
+        <test-method signature="checkOutValidData(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:29 EEST" name="checkOutValidData" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:29 EEST" duration-ms="34" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=mohamed, lastName=hossam, type=inValid, postalCode=589@@, TC=specialCharacter_PostalCode}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutValidData -->
+        <test-method signature="checkOutValidData(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:29 EEST" name="checkOutValidData" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:29 EEST" duration-ms="27" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=moh@@, lastName=hossam, type=inValid, postalCode=notValid, TC=alphabeticalCharacter_PostalCode}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutValidData -->
+        <test-method signature="checkOutValidData(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:29 EEST" name="checkOutValidData" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:29 EEST" duration-ms="27" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=85215, lastName=hossam, type=inValid, postalCode=12345, TC=numeric_FirstName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutValidData -->
+        <test-method signature="checkOutValidData(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:29 EEST" name="checkOutValidData" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:29 EEST" duration-ms="29" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=hossam, lastName=6789, type=inValid, postalCode=12345, TC=numeric_LastName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutValidData -->
+        <test-method signature="checkOutalnumericFirstName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:29 EEST" name="checkOutalnumericFirstName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:29 EEST" duration-ms="29" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=hossam, lastName=mohamed, type=valid, postalCode=12345, TC=smoke}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutalnumericFirstName -->
+        <test-method signature="checkOutalnumericFirstName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:29 EEST" name="checkOutalnumericFirstName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:29 EEST" duration-ms="31" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=, lastName=hossam, type=inValid, postalCode=6984, TC=empty_FirstName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutalnumericFirstName -->
+        <test-method signature="checkOutalnumericFirstName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:29 EEST" name="checkOutalnumericFirstName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:29 EEST" duration-ms="32" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=standard_user, lastName=, type=inValid, postalCode=5842, TC=empty_LastName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutalnumericFirstName -->
+        <test-method signature="checkOutalnumericFirstName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:29 EEST" name="checkOutalnumericFirstName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:29 EEST" duration-ms="27" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=hossam, lastName=mohamed, type=inValid, postalCode=, TC=empty_PostalCode}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutalnumericFirstName -->
+        <test-method signature="checkOutalnumericFirstName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:29 EEST" name="checkOutalnumericFirstName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:29 EEST" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=moh@@, lastName=hossam, type=inValid, postalCode=54545, TC=specialCharacter_FirstName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutalnumericFirstName -->
+        <test-method signature="checkOutalnumericFirstName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:29 EEST" name="checkOutalnumericFirstName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:29 EEST" duration-ms="30" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=mohamed, lastName=hossam@@, type=inValid, postalCode=8256, TC=specialCharacter_LastName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutalnumericFirstName -->
+        <test-method signature="checkOutalnumericFirstName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:29 EEST" name="checkOutalnumericFirstName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:29 EEST" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=mohamed, lastName=hossam, type=inValid, postalCode=589@@, TC=specialCharacter_PostalCode}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutalnumericFirstName -->
+        <test-method signature="checkOutalnumericFirstName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:29 EEST" name="checkOutalnumericFirstName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:29 EEST" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=moh@@, lastName=hossam, type=inValid, postalCode=notValid, TC=alphabeticalCharacter_PostalCode}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutalnumericFirstName -->
+        <test-method signature="checkOutalnumericFirstName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:29 EEST" name="checkOutalnumericFirstName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:29 EEST" duration-ms="259" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=85215, lastName=hossam, type=inValid, postalCode=12345, TC=numeric_FirstName}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.saucedemo.com/v1/checkout-step-one.html] but found [https://www.saucedemo.com/v1/checkout-step-two.html]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.saucedemo.com/v1/checkout-step-one.html] but found [https://www.saucedemo.com/v1/checkout-step-two.html]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at P04_CheckoutPageTC.checkOutalnumericFirstName(P04_CheckoutPageTC.java:158)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutalnumericFirstName -->
+        <test-method signature="checkOutalnumericFirstName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:29 EEST" name="checkOutalnumericFirstName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:29 EEST" duration-ms="37" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=hossam, lastName=6789, type=inValid, postalCode=12345, TC=numeric_LastName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutalnumericFirstName -->
+        <test-method signature="checkOutalnumericLastName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:29 EEST" name="checkOutalnumericLastName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:29 EEST" duration-ms="37" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=hossam, lastName=mohamed, type=valid, postalCode=12345, TC=smoke}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutalnumericLastName -->
+        <test-method signature="checkOutalnumericLastName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:29 EEST" name="checkOutalnumericLastName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:29 EEST" duration-ms="26" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=, lastName=hossam, type=inValid, postalCode=6984, TC=empty_FirstName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutalnumericLastName -->
+        <test-method signature="checkOutalnumericLastName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:29 EEST" name="checkOutalnumericLastName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:29 EEST" duration-ms="22" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=standard_user, lastName=, type=inValid, postalCode=5842, TC=empty_LastName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutalnumericLastName -->
+        <test-method signature="checkOutalnumericLastName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:29 EEST" name="checkOutalnumericLastName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:29 EEST" duration-ms="22" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=hossam, lastName=mohamed, type=inValid, postalCode=, TC=empty_PostalCode}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutalnumericLastName -->
+        <test-method signature="checkOutalnumericLastName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:29 EEST" name="checkOutalnumericLastName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:30 EEST" duration-ms="20" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=moh@@, lastName=hossam, type=inValid, postalCode=54545, TC=specialCharacter_FirstName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutalnumericLastName -->
+        <test-method signature="checkOutalnumericLastName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:30 EEST" name="checkOutalnumericLastName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:30 EEST" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=mohamed, lastName=hossam@@, type=inValid, postalCode=8256, TC=specialCharacter_LastName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutalnumericLastName -->
+        <test-method signature="checkOutalnumericLastName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:30 EEST" name="checkOutalnumericLastName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:30 EEST" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=mohamed, lastName=hossam, type=inValid, postalCode=589@@, TC=specialCharacter_PostalCode}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutalnumericLastName -->
+        <test-method signature="checkOutalnumericLastName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:30 EEST" name="checkOutalnumericLastName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:30 EEST" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=moh@@, lastName=hossam, type=inValid, postalCode=notValid, TC=alphabeticalCharacter_PostalCode}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutalnumericLastName -->
+        <test-method signature="checkOutalnumericLastName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:30 EEST" name="checkOutalnumericLastName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:30 EEST" duration-ms="29" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=85215, lastName=hossam, type=inValid, postalCode=12345, TC=numeric_FirstName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutalnumericLastName -->
+        <test-method signature="checkOutalnumericLastName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:30 EEST" name="checkOutalnumericLastName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:30 EEST" duration-ms="253" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=hossam, lastName=6789, type=inValid, postalCode=12345, TC=numeric_LastName}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.saucedemo.com/v1/checkout-step-one.html] but found [https://www.saucedemo.com/v1/checkout-step-two.html]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.saucedemo.com/v1/checkout-step-one.html] but found [https://www.saucedemo.com/v1/checkout-step-two.html]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at P04_CheckoutPageTC.checkOutalnumericLastName(P04_CheckoutPageTC.java:172)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutalnumericLastName -->
+        <test-method signature="checkOutalphabeticalCharacterPostalCode(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:30 EEST" name="checkOutalphabeticalCharacterPostalCode" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:30 EEST" duration-ms="39" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=hossam, lastName=mohamed, type=valid, postalCode=12345, TC=smoke}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutalphabeticalCharacterPostalCode -->
+        <test-method signature="checkOutalphabeticalCharacterPostalCode(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:30 EEST" name="checkOutalphabeticalCharacterPostalCode" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:30 EEST" duration-ms="91" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=, lastName=hossam, type=inValid, postalCode=6984, TC=empty_FirstName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutalphabeticalCharacterPostalCode -->
+        <test-method signature="checkOutalphabeticalCharacterPostalCode(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:30 EEST" name="checkOutalphabeticalCharacterPostalCode" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:30 EEST" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=standard_user, lastName=, type=inValid, postalCode=5842, TC=empty_LastName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutalphabeticalCharacterPostalCode -->
+        <test-method signature="checkOutalphabeticalCharacterPostalCode(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:30 EEST" name="checkOutalphabeticalCharacterPostalCode" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:30 EEST" duration-ms="25" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=hossam, lastName=mohamed, type=inValid, postalCode=, TC=empty_PostalCode}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutalphabeticalCharacterPostalCode -->
+        <test-method signature="checkOutalphabeticalCharacterPostalCode(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:30 EEST" name="checkOutalphabeticalCharacterPostalCode" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:30 EEST" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=moh@@, lastName=hossam, type=inValid, postalCode=54545, TC=specialCharacter_FirstName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutalphabeticalCharacterPostalCode -->
+        <test-method signature="checkOutalphabeticalCharacterPostalCode(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:30 EEST" name="checkOutalphabeticalCharacterPostalCode" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:30 EEST" duration-ms="24" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=mohamed, lastName=hossam@@, type=inValid, postalCode=8256, TC=specialCharacter_LastName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutalphabeticalCharacterPostalCode -->
+        <test-method signature="checkOutalphabeticalCharacterPostalCode(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:30 EEST" name="checkOutalphabeticalCharacterPostalCode" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:30 EEST" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=mohamed, lastName=hossam, type=inValid, postalCode=589@@, TC=specialCharacter_PostalCode}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutalphabeticalCharacterPostalCode -->
+        <test-method signature="checkOutalphabeticalCharacterPostalCode(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:30 EEST" name="checkOutalphabeticalCharacterPostalCode" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:31 EEST" duration-ms="399" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=moh@@, lastName=hossam, type=inValid, postalCode=notValid, TC=alphabeticalCharacter_PostalCode}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.saucedemo.com/v1/checkout-step-one.html] but found [https://www.saucedemo.com/v1/checkout-step-two.html]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.saucedemo.com/v1/checkout-step-one.html] but found [https://www.saucedemo.com/v1/checkout-step-two.html]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at P04_CheckoutPageTC.checkOutalphabeticalCharacterPostalCode(P04_CheckoutPageTC.java:145)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutalphabeticalCharacterPostalCode -->
+        <test-method signature="checkOutalphabeticalCharacterPostalCode(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:31 EEST" name="checkOutalphabeticalCharacterPostalCode" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:31 EEST" duration-ms="33" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=85215, lastName=hossam, type=inValid, postalCode=12345, TC=numeric_FirstName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutalphabeticalCharacterPostalCode -->
+        <test-method signature="checkOutalphabeticalCharacterPostalCode(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:31 EEST" name="checkOutalphabeticalCharacterPostalCode" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:31 EEST" duration-ms="30" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=hossam, lastName=6789, type=inValid, postalCode=12345, TC=numeric_LastName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutalphabeticalCharacterPostalCode -->
+        <test-method signature="checkOutspecialCharacterFirstName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:31 EEST" name="checkOutspecialCharacterFirstName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:31 EEST" duration-ms="30" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=hossam, lastName=mohamed, type=valid, postalCode=12345, TC=smoke}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutspecialCharacterFirstName -->
+        <test-method signature="checkOutspecialCharacterFirstName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:31 EEST" name="checkOutspecialCharacterFirstName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:31 EEST" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=, lastName=hossam, type=inValid, postalCode=6984, TC=empty_FirstName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutspecialCharacterFirstName -->
+        <test-method signature="checkOutspecialCharacterFirstName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:31 EEST" name="checkOutspecialCharacterFirstName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:31 EEST" duration-ms="22" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=standard_user, lastName=, type=inValid, postalCode=5842, TC=empty_LastName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutspecialCharacterFirstName -->
+        <test-method signature="checkOutspecialCharacterFirstName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:31 EEST" name="checkOutspecialCharacterFirstName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:31 EEST" duration-ms="24" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=hossam, lastName=mohamed, type=inValid, postalCode=, TC=empty_PostalCode}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutspecialCharacterFirstName -->
+        <test-method signature="checkOutspecialCharacterFirstName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:31 EEST" name="checkOutspecialCharacterFirstName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:31 EEST" duration-ms="363" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=moh@@, lastName=hossam, type=inValid, postalCode=54545, TC=specialCharacter_FirstName}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.saucedemo.com/v1/checkout-step-one.html] but found [https://www.saucedemo.com/v1/checkout-step-two.html]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.saucedemo.com/v1/checkout-step-one.html] but found [https://www.saucedemo.com/v1/checkout-step-two.html]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at P04_CheckoutPageTC.checkOutspecialCharacterFirstName(P04_CheckoutPageTC.java:104)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutspecialCharacterFirstName -->
+        <test-method signature="checkOutspecialCharacterFirstName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:31 EEST" name="checkOutspecialCharacterFirstName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:31 EEST" duration-ms="51" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=mohamed, lastName=hossam@@, type=inValid, postalCode=8256, TC=specialCharacter_LastName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutspecialCharacterFirstName -->
+        <test-method signature="checkOutspecialCharacterFirstName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:31 EEST" name="checkOutspecialCharacterFirstName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:32 EEST" duration-ms="47" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=mohamed, lastName=hossam, type=inValid, postalCode=589@@, TC=specialCharacter_PostalCode}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutspecialCharacterFirstName -->
+        <test-method signature="checkOutspecialCharacterFirstName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:32 EEST" name="checkOutspecialCharacterFirstName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:32 EEST" duration-ms="29" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=moh@@, lastName=hossam, type=inValid, postalCode=notValid, TC=alphabeticalCharacter_PostalCode}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutspecialCharacterFirstName -->
+        <test-method signature="checkOutspecialCharacterFirstName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:32 EEST" name="checkOutspecialCharacterFirstName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:32 EEST" duration-ms="32" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=85215, lastName=hossam, type=inValid, postalCode=12345, TC=numeric_FirstName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutspecialCharacterFirstName -->
+        <test-method signature="checkOutspecialCharacterFirstName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:32 EEST" name="checkOutspecialCharacterFirstName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:32 EEST" duration-ms="35" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=hossam, lastName=6789, type=inValid, postalCode=12345, TC=numeric_LastName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutspecialCharacterFirstName -->
+        <test-method signature="checkOutspecialCharacterLastName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:32 EEST" name="checkOutspecialCharacterLastName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:32 EEST" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=hossam, lastName=mohamed, type=valid, postalCode=12345, TC=smoke}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutspecialCharacterLastName -->
+        <test-method signature="checkOutspecialCharacterLastName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:32 EEST" name="checkOutspecialCharacterLastName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:32 EEST" duration-ms="35" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=, lastName=hossam, type=inValid, postalCode=6984, TC=empty_FirstName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutspecialCharacterLastName -->
+        <test-method signature="checkOutspecialCharacterLastName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:32 EEST" name="checkOutspecialCharacterLastName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:32 EEST" duration-ms="35" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=standard_user, lastName=, type=inValid, postalCode=5842, TC=empty_LastName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutspecialCharacterLastName -->
+        <test-method signature="checkOutspecialCharacterLastName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:32 EEST" name="checkOutspecialCharacterLastName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:32 EEST" duration-ms="38" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=hossam, lastName=mohamed, type=inValid, postalCode=, TC=empty_PostalCode}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutspecialCharacterLastName -->
+        <test-method signature="checkOutspecialCharacterLastName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:32 EEST" name="checkOutspecialCharacterLastName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:32 EEST" duration-ms="29" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=moh@@, lastName=hossam, type=inValid, postalCode=54545, TC=specialCharacter_FirstName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutspecialCharacterLastName -->
+        <test-method signature="checkOutspecialCharacterLastName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:32 EEST" name="checkOutspecialCharacterLastName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:32 EEST" duration-ms="411" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=mohamed, lastName=hossam@@, type=inValid, postalCode=8256, TC=specialCharacter_LastName}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.saucedemo.com/v1/checkout-step-one.html] but found [https://www.saucedemo.com/v1/checkout-step-two.html]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.saucedemo.com/v1/checkout-step-one.html] but found [https://www.saucedemo.com/v1/checkout-step-two.html]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at P04_CheckoutPageTC.checkOutspecialCharacterLastName(P04_CheckoutPageTC.java:118)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutspecialCharacterLastName -->
+        <test-method signature="checkOutspecialCharacterLastName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:32 EEST" name="checkOutspecialCharacterLastName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:32 EEST" duration-ms="38" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=mohamed, lastName=hossam, type=inValid, postalCode=589@@, TC=specialCharacter_PostalCode}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutspecialCharacterLastName -->
+        <test-method signature="checkOutspecialCharacterLastName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:32 EEST" name="checkOutspecialCharacterLastName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:32 EEST" duration-ms="30" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=moh@@, lastName=hossam, type=inValid, postalCode=notValid, TC=alphabeticalCharacter_PostalCode}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutspecialCharacterLastName -->
+        <test-method signature="checkOutspecialCharacterLastName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:32 EEST" name="checkOutspecialCharacterLastName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:32 EEST" duration-ms="30" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=85215, lastName=hossam, type=inValid, postalCode=12345, TC=numeric_FirstName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutspecialCharacterLastName -->
+        <test-method signature="checkOutspecialCharacterLastName(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:32 EEST" name="checkOutspecialCharacterLastName" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:32 EEST" duration-ms="30" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=hossam, lastName=6789, type=inValid, postalCode=12345, TC=numeric_LastName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutspecialCharacterLastName -->
+        <test-method signature="checkOutspecialCharacterPostalCode(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:32 EEST" name="checkOutspecialCharacterPostalCode" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:32 EEST" duration-ms="32" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=hossam, lastName=mohamed, type=valid, postalCode=12345, TC=smoke}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutspecialCharacterPostalCode -->
+        <test-method signature="checkOutspecialCharacterPostalCode(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:32 EEST" name="checkOutspecialCharacterPostalCode" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:33 EEST" duration-ms="32" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=, lastName=hossam, type=inValid, postalCode=6984, TC=empty_FirstName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutspecialCharacterPostalCode -->
+        <test-method signature="checkOutspecialCharacterPostalCode(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:33 EEST" name="checkOutspecialCharacterPostalCode" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:33 EEST" duration-ms="29" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=standard_user, lastName=, type=inValid, postalCode=5842, TC=empty_LastName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutspecialCharacterPostalCode -->
+        <test-method signature="checkOutspecialCharacterPostalCode(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:33 EEST" name="checkOutspecialCharacterPostalCode" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:33 EEST" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=hossam, lastName=mohamed, type=inValid, postalCode=, TC=empty_PostalCode}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutspecialCharacterPostalCode -->
+        <test-method signature="checkOutspecialCharacterPostalCode(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:33 EEST" name="checkOutspecialCharacterPostalCode" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:33 EEST" duration-ms="33" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=moh@@, lastName=hossam, type=inValid, postalCode=54545, TC=specialCharacter_FirstName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutspecialCharacterPostalCode -->
+        <test-method signature="checkOutspecialCharacterPostalCode(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:33 EEST" name="checkOutspecialCharacterPostalCode" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:33 EEST" duration-ms="30" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=mohamed, lastName=hossam@@, type=inValid, postalCode=8256, TC=specialCharacter_LastName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutspecialCharacterPostalCode -->
+        <test-method signature="checkOutspecialCharacterPostalCode(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:33 EEST" name="checkOutspecialCharacterPostalCode" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:33 EEST" duration-ms="273" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=mohamed, lastName=hossam, type=inValid, postalCode=589@@, TC=specialCharacter_PostalCode}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.saucedemo.com/v1/checkout-step-one.html] but found [https://www.saucedemo.com/v1/checkout-step-two.html]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.saucedemo.com/v1/checkout-step-one.html] but found [https://www.saucedemo.com/v1/checkout-step-two.html]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at P04_CheckoutPageTC.checkOutspecialCharacterPostalCode(P04_CheckoutPageTC.java:132)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutspecialCharacterPostalCode -->
+        <test-method signature="checkOutspecialCharacterPostalCode(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:33 EEST" name="checkOutspecialCharacterPostalCode" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:33 EEST" duration-ms="42" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=moh@@, lastName=hossam, type=inValid, postalCode=notValid, TC=alphabeticalCharacter_PostalCode}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutspecialCharacterPostalCode -->
+        <test-method signature="checkOutspecialCharacterPostalCode(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:33 EEST" name="checkOutspecialCharacterPostalCode" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:33 EEST" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=85215, lastName=hossam, type=inValid, postalCode=12345, TC=numeric_FirstName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutspecialCharacterPostalCode -->
+        <test-method signature="checkOutspecialCharacterPostalCode(java.util.HashMap)[pri:0, instance:P04_CheckoutPageTC@20d7d6fb]" started-at="2025-07-24T09:48:33 EEST" name="checkOutspecialCharacterPostalCode" data-provider="getCheckOutData" finished-at="2025-07-24T09:48:33 EEST" duration-ms="26" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=hossam, lastName=6789, type=inValid, postalCode=12345, TC=numeric_LastName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutspecialCharacterPostalCode -->
+      </class> <!-- P04_CheckoutPageTC -->
+    </test> <!-- AllTests -->
+  </suite> <!-- AutomationSuite -->
+</testng-results>
