@@ -1,9 +1,0 @@
-configuration\AbstractComponent.class
-pages\P03_CartPage.class
-pages\P04_CheckoutPage.class
-pages\P02_ProductsPage.class
-configuration\ExtentReportNg.class
-configuration\Config.class
-pages\P05_ConfirmationPage.class
-org\example\Main.class
-pages\P01_LoginPage.class
