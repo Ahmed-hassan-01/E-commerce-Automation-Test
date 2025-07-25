@@ -1,9 +1,0 @@
-P02_ProductsPageTC.class
-TestComponent\BaseTest.class
-P03_CartPageTC.class
-P04_CheckoutPageTC.class
-ExtentReports\ExtentReport.class
-TestComponent\Listeners.class
-TestComponent\BaseTest$1.class
-P01_LoginPageTC.class
-TestComponent\Retry.class
