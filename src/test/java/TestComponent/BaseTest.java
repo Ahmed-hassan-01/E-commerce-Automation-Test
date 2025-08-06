@@ -85,6 +85,7 @@ if(browserName.equalsIgnoreCase("chrome"))
     EdgeOptions options = new EdgeOptions();
     options.addArguments("--inprivate");
     driver = new EdgeDriver(options);
+    driver.manage().window().maximize();
 
     } else {
         throw new RuntimeException("Unsupported browser: " + browserName);
@@ -131,6 +132,7 @@ if(browserName.equalsIgnoreCase("chrome"))
             }
         }
     }
+
 
 
 
