@@ -41,10 +41,17 @@ public class BaseTest extends Config {
     @BeforeSuite(alwaysRun = true)
     public void launchBrowser() throws IOException {
 
-        Properties prop = new Properties();
-        FileInputStream fis= new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\configuration\\GlobalData.properties");
-        prop.load(fis);
-String browserName=prop.getProperty("browser");
+       String browserName=System.getProperty("browser");
+
+
+        if(browserName == null || browserName.isEmpty())
+        {
+            Properties prop = new Properties();
+            FileInputStream fis= new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\configuration\\GlobalData.properties");
+            prop.load(fis);
+             browserName=prop.getProperty("browser");
+
+        }
 if(browserName.equalsIgnoreCase("chrome"))
 {
     if (driver == null) {
@@ -132,6 +139,7 @@ if(browserName.equalsIgnoreCase("chrome"))
             }
         }
     }
+
 
 
 
