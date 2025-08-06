@@ -1,0 +1,9 @@
+[
+  {"action": "add","productName": "Sauce Labs Bike Light"},
+  {"action": "add","productName": "Sauce Labs Fleece Jacket"},
+  {"action": "add","productName": "Sauce Labs Bolt T-Shirt"},
+  {"action": "remove","productName": "Sauce Labs Bike Light"},
+  {"action": "view","productName": "Sauce Labs Fleece Jacket"},
+  {"action": "view","productName": "Sauce Labs Bolt T-Shirt"}
+
+]
