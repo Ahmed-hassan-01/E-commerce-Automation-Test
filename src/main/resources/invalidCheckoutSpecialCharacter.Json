@@ -1,0 +1,4 @@
+[{"type": "inValid","TC": "specialCharacter_FirstName","firstName": "moh@@","lastName": "hossam","postalCode": "54545"},
+{"type": "inValid","TC": "specialCharacter_LastName","firstName": "mohamed","lastName": "hossam@@","postalCode": "8256"},
+{"type": "inValid","TC": "specialCharacter_PostalCode","firstName": "mohamed","lastName": "hossam","postalCode": "589@@"}
+]
